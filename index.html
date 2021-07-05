@@ -8,6 +8,7 @@
 <body>
 <aside>
 	<a style="height:8px;width:9px;margin:10px;" class="cur_a"><span style='font-size:15px'>首页</span></a>
+	<a style="height:8px;width:8px;margin:10px;"><span style='font-size:15px'>网站总览</span></a>
 	<a style="height:8px;width:8px;margin:10px;"><span style='font-size:15px'>基本信息</span></a>
 	<a style="height:8px;width:8px;margin:10px;"><span style='font-size:15px'>专业技能</span></a>
 	<a style="height:8px;width:8px;margin:10px;"><span style='font-size:15px'>科研经历</span></a>
@@ -21,7 +22,7 @@
 	<a style="height:8px;width:8px;margin:10px;"><span style='font-size:15px'>成果展示</span></a>
 	<a style="height:8px;width:8px;margin:10px;"><span style='font-size:15px'>其他经历</span></a>
 	<a style="height:8px;width:8px;margin:10px;"><span style='font-size:15px'>联系方式</span></a>
-</aside>	
+</aside>
 <section class="page_one" id="page1">
     <bgsound src="/music/leo.mp3" autostart=true loop=infinite> 
 	<nav>
@@ -49,11 +50,27 @@
 	</div>
 	
 </section>
-
+<section class="page_three" id="page5">
+	<div class="con_wrap">
+		<div class="tit_wrap">
+			<h1 style="font-weight: bold;">网站总览</h1>
+			<div class="scissors">
+				<span></span>
+			</div>
+			<h2 style="font:italic normal bold 20px KaiTi;">一个人静静坐在电脑面前写代码的感觉，那是什么感觉?那是武林高手闭关修炼的感觉!</h2>
+		</div>
+		<div style="">
+            <img src="./images/网站总览.jpg" />
+		</div>
+	</div>
+	<div class="down_arrow">
+		<a class="scroll"><span></span></a> 
+	</div>
+</section>
 <section class="page_two" id="page2">
 	<div class="con_wrap">
 		<div class="tit_wrap">
-			<h1 style="font-weight: bold;">关于我</h1>
+			<h1 style="font-weight: bold;">基本信息</h1>
 			<div class="scissors">
 				<span></span>
 			</div>
@@ -110,7 +127,7 @@
 		<div class="skill_con">
 			<div class="canvas_wrap">
 				<div class="canvas_con">
-					<div class="text_con">
+					<div class="text_con" style="height:10%;">
 						<p class="chart_title" style="font-size:27px;">机器学习编程</p>
 					</div>
 					<canvas id="html5" width=160 height=160></canvas>
@@ -147,12 +164,12 @@
 				</div>
 			</div>
 			<div class="text_wrap">
-				<p style="font-size:20px;">1.熟悉Pytorch、TensorFlow、Keras深度学习框架，熟悉scikit-learn，Hyperopt、OpenAI Gym等深度学习编程常用辅助工具。</p>
-				<p style="font-size:20px;">2.熟悉常用数据结构与算法、线性代数、离散数学、操作系统、机器学习等计算机相关知识，并能熟练应用其于编程实践。</p>
-				<p style="font-size:20px;">3.熟悉面向对象编程、并行编程、网络编程、数据库操作等软件项目基础操作。</p>
-				<p style="font-size:20px;">4.熟练掌握C/C++/Java/Python/JavaScript等语言，能熟练运用数组、指针、结构体、内置函数等进行编程。</p>
-				<p style="font-size:20px;">5.熟练掌握Vue+Django前后端框架，微信小程序开发框架+云开发，能进行全栈开发。</p>	
-				<p style="font-size:20px;">6.熟练Excel,Pandas,Numpy,Matplotlib等数据处理与绘制工具。</p>
+				<p style="font-size:18px;">1.熟悉Pytorch、TensorFlow、Keras深度学习框架，熟悉scikit-learn，Hyperopt、OpenAI Gym等深度学习编程常用辅助工具。</p>
+				<p style="font-size:18px;">2.熟悉常用数据结构与算法、线性代数、离散数学、操作系统、机器学习等计算机相关知识，并能熟练应用其于编程实践。</p>
+				<p style="font-size:18px;">3.熟悉面向对象编程、并行编程、网络编程、数据库操作等软件项目基础操作。</p>
+				<p style="font-size:18px;">4.熟练掌握C/C++/Java/Python/JavaScript等语言，能熟练运用数组、指针、结构体、内置函数等进行编程。</p>
+				<p style="font-size:18px;">5.熟练掌握Vue+Django前后端框架，微信小程序开发框架+云开发，能进行全栈开发。</p>	
+				<p style="font-size:18px;">6.熟练Excel,Pandas,Numpy,Matplotlib等数据处理与绘制工具。</p>
 			</div>
 		</div>
 	<div class="down_arrow">
@@ -241,7 +258,7 @@
 		    	<div class="work_time" style="background-color: orange;font-size:14px;margin:18% auto;font-weight:bold;">基于ABM模型的智能化模拟经济平台</div>
 			    <div class="work_text">
 			      	<div class="triangle-left"></div>
-			      	<div class="exCon">
+			      	<div class="exCon" style="font-size:12px;">
 				        <h4>开发时间：2020 / 1 -- 2021 / 4</h4>
 						<p style="font-weight:bold;">担任角色：开发人员</p>
 				        <p style="font-weight:bold;">项目描述：</p>
@@ -330,10 +347,10 @@
 				        <p>2. 将用于CNN的ResNet改造后运用到Dense网络中，得分高达9000+，进入A榜排位7%。</p>
 						<p>3. 熟悉了Pytorch与Keras框架以及Hyperopt、scikit-learn等工具。</p>
 						<p style="font-weight:bold;">心得体会：</p>
-						<p>1. 提高了我的深度学习编程能力，而且我发现了平时没有服务器的时候跑深度学习的程序完全可以在Kaggle的Notebook上面进行。</p>
-						<p>2. 我感觉深度学习模型有些时候也很玄学，我用LSTM和Bert模型跑出来的结果甚至不如DNN跑出来的效果好。</p>
-						<p>3. Kaggle比赛貌似也有挺多小技巧的，比如我们这个项目随机数种子设为72，用均值填充数据中NaN或空部分就能很好的提高分数。</p>
-						<p>4. 通过阅读其他选手的博客我发现一个可以指导我研究的方向，进行深度学习模型测试的时候很多时候有些看似很简单的模型其实就能达到很好的效果，我们可以在一开始广撒网尝试不同模型，通过对分数差异较大的模型进行对比分析，进而得到模型真正能够促使实验结果优秀的原因。</p>
+						<p>1. 提高了我的深度学习编程能力，而且我发现了平时没有服务器的时候跑深度学习的程序完全可以在Kaggle的Notebook上进行。</p>
+						<p>2. 深度学习模型并不一定越复杂越优越，我用LSTM和Bert模型跑出来的结果甚至不如DNN跑出来的效果好。</p>
+						<p>3. 很多时候项目实践中往往可以通过一些意想不到的小技巧来实现实验效果的提升，比如我们这个项目随机数种子设为72，用均值填充数据中NaN或空部分就能很好的提高分数。</p>
+						<p>4. 通过阅读其他选手的博客我发现一个可以指导我今后研究的思路，进行深度学习模型测试的时候很多时候有些看似很简单的模型其实就能达到很好的效果，我们可以在一开始广撒网尝试不同模型，通过对分数差异较大的模型进行对比分析，进而得到模型真正能够促使实验结果优秀的原因。</p>
 					</div>
 			    </div> 
 			</div>
@@ -353,7 +370,7 @@
 		</div>
 	  	<div class="work_con">
 			<div class="programe">
-		    	<div class="work_time" style="background-color: orange;font-size: 14px;margin:13% auto;font-weight:bold;">“我在”独处空间</div>
+		    	<div class="work_time" style="background-color: orange;font-size: 14px;margin:13% auto;font-weight:bold;">独处空间</div>
 			    <div class="work_text">
 			      	<div class="triangle-left"></div>
 			      	<div class="exCon">
@@ -550,7 +567,7 @@
 				</li>
 				<li>
 					<span></span>
-					<p style="font-weight:bold;">1813039@mail.nankai.edu.cn</p>
+					<p style="font-weight:bold;">yangkaixing@mail.nankai.edu.cn</p>
 				</li>
 				<li>
 					<span></span>
@@ -558,7 +575,7 @@
 				</li>
 			</ul>
 			<div class="contact_info">
-				<form action="MAILTO:1813039@mail.nankai.edu.cn" method="get">
+				<form action="MAILTO:yangkaixing@mail.nankai.edu.cn" method="get">
 				<label>
 					<input type="text" id="username" placeholder="你的名字" required="">
 					<p  id="check_username"></p>
